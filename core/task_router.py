@@ -1,20 +1,28 @@
 from research.tokopedia_agent import TokopediaAgent
 from utils.logger import logger
 
+
 class TaskRouter:
+    """Routes ecommerce search tasks to active platform agents."""
+
     def __init__(self, context):
         self.context = context
-        
-    def route_and_execute(self, keyword: str):
-        all_results = []
-        
-        # In the future, this loops over multiple platforms. For now, Tokopedia.
+
+    def route_and_execute(self, keyword: str) -> dict:
+        """
+        Run active platform agents and return results per-platform.
+
+        Returns:
+            dict with key "tokopedia" containing a list of products.
+        """
+        results = {}
+
         logger.info("[info]Routing task to Tokopedia Agent...[/info]")
-        tokopedia = TokopediaAgent(self.context)
         try:
-            results = tokopedia.search(keyword)
-            all_results.extend(results)
+            tokopedia = TokopediaAgent(self.context)
+            results["tokopedia"] = tokopedia.search(keyword)
         except Exception as e:
             logger.error(f"[error]Tokopedia Agent failed: {e}[/error]")
-            
-        return all_results
+            results["tokopedia"] = []
+
+        return results

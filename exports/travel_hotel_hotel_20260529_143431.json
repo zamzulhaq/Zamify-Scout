@@ -1,0 +1,14 @@
+{
+  "analysis": {
+    "category": "hotel",
+    "location": "hotel",
+    "cheapest": null,
+    "average_price": null,
+    "best_value": null,
+    "top_5": [],
+    "total_places": 0,
+    "priced_places": 0,
+    "rated_places": 0
+  },
+  "places": []
+}

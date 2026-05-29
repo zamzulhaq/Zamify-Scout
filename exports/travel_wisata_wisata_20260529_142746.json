@@ -1,0 +1,42 @@
+{
+  "analysis": {
+    "category": "wisata",
+    "location": "wisata",
+    "cheapest": null,
+    "average_price": null,
+    "best_value": null,
+    "top_5": [],
+    "total_places": 3,
+    "priced_places": 0,
+    "rated_places": 0
+  },
+  "places": [
+    {
+      "name": "Why did this happen?",
+      "price": null,
+      "rating": null,
+      "reviews": null,
+      "location": "wisata",
+      "address": "IP address: 182.10.98.178",
+      "confidence": "low"
+    },
+    {
+      "name": "IP address: 182.10.98.178",
+      "price": null,
+      "rating": null,
+      "reviews": null,
+      "location": "wisata",
+      "address": "IP address: 182.10.98.178",
+      "confidence": "low"
+    },
+    {
+      "name": "Time: 2026-05-29T07:27:26Z",
+      "price": null,
+      "rating": null,
+      "reviews": null,
+      "location": "wisata",
+      "address": "IP address: 182.10.98.178",
+      "confidence": "low"
+    }
+  ]
+}

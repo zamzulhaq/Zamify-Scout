@@ -10,6 +10,7 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 
 # Playwright settings
 HEADLESS = False
+USER_DATA_DIR = "C:/Users/arisb/AppData/Local/Google/Chrome/User Data/EcomBot"
 
 # Agents settings
 MAX_PRODUCTS_PER_PLATFORM = 50
