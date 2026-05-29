@@ -1,0 +1,13 @@
+2026-05-29 07:58:50,842 - ecom_ai - INFO - Application started
+2026-05-29 07:59:22,924 - ecom_ai - INFO - Starting scrape for azrahstore.com with max_items=5
+2026-05-29 07:59:26,607 - ecom_ai - DEBUG - Successfully fetched https://azrahstore.com
+2026-05-29 07:59:26,786 - ecom_ai - INFO - Successfully extracted 5 products
+2026-05-29 07:59:29,522 - ecom_ai - INFO - Successfully exported 5 items to C:\Users\arisb\Documents\antigravity\calm-curie\ecom_ai\exports\products_azrahstore.com_20260529_075928.csv
+2026-05-29 08:02:53,722 - ecom_ai - INFO - Application started
+2026-05-29 08:03:06,911 - ecom_ai - INFO - Starting scrape for azrahstore.com with max_items=5
+2026-05-29 08:03:06,912 - ecom_ai - DEBUG - Fetching homepage: https://azrahstore.com
+2026-05-29 08:03:09,634 - ecom_ai - INFO - Found 10 category links. Starting category crawl...
+2026-05-29 08:03:09,635 - ecom_ai - DEBUG - Fetching category: View Offer ↗ - https://azrahstore.com/product-category/buku/
+2026-05-29 08:03:12,112 - ecom_ai - INFO - Extracted 8 products from category 'View Offer ↗'
+2026-05-29 08:03:12,112 - ecom_ai - INFO - Successfully extracted a total of 5 products
+2026-05-29 08:03:14,660 - ecom_ai - INFO - Successfully exported 5 items to C:\Users\arisb\Documents\antigravity\calm-curie\ecom_ai\exports\products_azrahstore.com_20260529_080313.csv
