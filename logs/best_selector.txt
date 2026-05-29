@@ -1,0 +1,30 @@
+DOM DISCOVERY REPORT
+==================================================
+
+Best Selector  : div.y-oybT3IAd310DVdH3OwVg==
+Confidence     : 20.0%
+Container Count: 39
+
+Top Parent Signatures:
+    39x  div.y-oybT3IAd310DVdH3OwVg==
+    28x  div.pBlp2erqYHW+p5z-rsznAA==
+    22x  div
+    20x  div.css-5wh65g
+    20x  a.Ui5-B4CDAk4Cv-cjLm4o0g==.XeGJAOdlJaxl4+UD3zEJLg==
+    20x  div.gG1uA844gIiB2+C3QWiaKA==
+    19x  div.c7W9YYbRQuC29+GfsfRTEA==
+     8x  div.e48Kml5BRW9dq8Mopwgv7w==
+     2x  div.css-1c82svt
+     2x  div.css-1cb34wj
+
+Top Grandparent Signatures:
+    47x  div.y-oybT3IAd310DVdH3OwVg==
+    39x  div.gG1uA844gIiB2+C3QWiaKA==
+    23x  div
+    20x  div.css-jza1fo
+    20x  div.css-5wh65g
+    20x  a.Ui5-B4CDAk4Cv-cjLm4o0g==.XeGJAOdlJaxl4+UD3zEJLg==
+     8x  div.pBlp2erqYHW+p5z-rsznAA==
+     2x  div.css-jau1bt
+     2x  div.css-1cb34wj
+     2x  div.css-frokek

@@ -1,21 +1,21 @@
 import logging
-from config import LOG_FILE
+import os
+from config import LOGS_DIR
+from rich.logging import RichHandler
+from ui.terminal_theme import sentinel_theme
+from rich.console import Console
 
-def setup_logger():
-    """
-    Sets up a simple logger to write to logs/app.log
-    """
-    logger = logging.getLogger("ecom_ai")
-    logger.setLevel(logging.DEBUG)
-    
-    # Prevent duplicate handlers
-    if not logger.handlers:
-        file_handler = logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8')
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        file_handler.setFormatter(formatter)
-        logger.addHandler(file_handler)
-        
-    return logger
+console = Console(theme=sentinel_theme)
 
-# Create a global logger instance
-logger = setup_logger()
+log_format = "%(message)s"
+logging.basicConfig(
+    level=logging.INFO,
+    format=log_format,
+    datefmt="[%X]",
+    handlers=[
+        RichHandler(console=console, rich_tracebacks=True, show_path=False),
+        logging.FileHandler(os.path.join(LOGS_DIR, "sentinel.log"), encoding="utf-8")
+    ]
+)
+
+logger = logging.getLogger("sentinel")

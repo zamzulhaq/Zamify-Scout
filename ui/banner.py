@@ -1,31 +1,20 @@
 from rich.panel import Panel
 from rich.align import Align
-from rich.console import Console
 from rich.text import Text
 
-console = Console()
-
-def show_banner():
-    """
-    Displays a modern, professional terminal banner for the application.
-    """
-    title = Text("AI ECOMMERCE INTELLIGENCE", style="bold cyan", justify="center")
-    subtitle = Text("Powered by Zamify | V1.0", style="dim", justify="center")
+def get_banner() -> Panel:
+    banner_text = Text()
+    banner_text.append("███████╗ █████╗ ███╗   ███╗██╗███████╗██╗   ██╗\n", style="bold blue")
+    banner_text.append("╚══███╔╝██╔══██╗████╗ ████║██║██╔════╝╚██╗ ██╔╝\n", style="bold blue")
+    banner_text.append("  ███╔╝ ███████║██╔████╔██║██║█████╗   ╚████╔╝ \n", style="bold cyan")
+    banner_text.append(" ███╔╝  ██╔══██║██║╚██╔╝██║██║██╔══╝    ╚██╔╝  \n", style="bold cyan")
+    banner_text.append("███████╗██║  ██║██║ ╚═╝ ██║██║██║        ██║   \n", style="bold cyan")
+    banner_text.append("╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝        ╚═╝   \n", style="bold blue")
+    banner_text.append("\n[ SENTINEL V2 - AUTONOMOUS ECOMMERCE RESEARCH ]\n", style="bold magenta")
     
-    content = Text()
-    content.append("\n")
-    content.append(title)
-    content.append("\n")
-    content.append(subtitle)
-    content.append("\n")
-    
-    panel = Panel(
-        content,
-        border_style="cyan",
-        padding=(1, 2),
-        title="[bold green]System Ready",
-        expand=False
+    return Panel(
+        Align.center(banner_text),
+        border_style="blue",
+        title="[bold white]STARTUP AI TOOL[/bold white]",
+        padding=(1, 2)
     )
-    
-    console.print(Align.center(panel))
-    console.print()

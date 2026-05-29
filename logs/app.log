@@ -11,3 +11,33 @@
 2026-05-29 08:03:12,112 - ecom_ai - INFO - Extracted 8 products from category 'View Offer ↗'
 2026-05-29 08:03:12,112 - ecom_ai - INFO - Successfully extracted a total of 5 products
 2026-05-29 08:03:14,660 - ecom_ai - INFO - Successfully exported 5 items to C:\Users\arisb\Documents\antigravity\calm-curie\ecom_ai\exports\products_azrahstore.com_20260529_080313.csv
+2026-05-29 08:46:27,526 - ecom_ai - INFO - Application started (Playwright Version)
+2026-05-29 08:46:39,415 - ecom_ai - INFO - Launching browser...
+2026-05-29 08:46:41,711 - ecom_ai - INFO - Opening website: https://azrahstore.com
+2026-05-29 08:46:44,741 - ecom_ai - DEBUG - Executing human scroll (2 times)
+2026-05-29 08:46:47,897 - ecom_ai - INFO - Detecting categories on homepage
+2026-05-29 08:46:49,236 - ecom_ai - INFO - Navigating to category VIEW OFFER ↗ - https://azrahstore.com/product-category/buku/
+2026-05-29 08:46:52,410 - ecom_ai - INFO - Found 8 potential product cards
+2026-05-29 08:46:53,028 - ecom_ai - INFO - Successfully exported 5 items to C:\Users\arisb\Documents\antigravity\ecom_ai\exports\products_azrahstore.com_20260529_084652.csv
+2026-05-29 08:46:53,037 - ecom_ai - INFO - Closing browser...
+2026-05-29 08:48:47,532 - ecom_ai - INFO - Application started (Playwright Version)
+2026-05-29 08:50:23,344 - ecom_ai - INFO - Launching browser...
+2026-05-29 08:50:25,006 - ecom_ai - INFO - Opening website: https://shopee.co.id/palejeans?categoryId=100011&entryPoint=ShopByPDP&itemId=23527165901
+2026-05-29 08:50:27,061 - ecom_ai - DEBUG - Executing human scroll (2 times)
+2026-05-29 08:50:30,185 - ecom_ai - INFO - Detecting categories on homepage
+2026-05-29 08:50:30,303 - ecom_ai - INFO - No categories found. Scanning homepage directly.
+2026-05-29 08:50:34,293 - ecom_ai - INFO - Found 0 potential product cards
+2026-05-29 08:50:34,299 - ecom_ai - INFO - Closing browser...
+2026-05-29 08:50:52,303 - ecom_ai - INFO - Application started (Playwright Version)
+2026-05-29 08:51:02,469 - ecom_ai - INFO - Launching browser...
+2026-05-29 08:51:04,228 - ecom_ai - INFO - Opening website: https://azrahstore.com
+2026-05-29 08:51:07,047 - ecom_ai - DEBUG - Executing human scroll (2 times)
+2026-05-29 08:51:10,219 - ecom_ai - INFO - Detecting categories on homepage
+2026-05-29 08:51:11,436 - ecom_ai - INFO - Navigating to category VIEW OFFER ↗ - https://azrahstore.com/product-category/buku/
+2026-05-29 08:51:14,425 - ecom_ai - INFO - Found 8 potential product cards
+2026-05-29 08:51:15,626 - ecom_ai - INFO - Navigating to category VIEW OFFER ↗ - https://azrahstore.com/product-category/fashion/
+2026-05-29 08:51:20,673 - ecom_ai - INFO - Found 14 potential product cards
+2026-05-29 08:51:20,792 - ecom_ai - INFO - Successfully exported 10 items to C:\Users\arisb\Documents\antigravity\ecom_ai\exports\products_azrahstore.com_20260529_085120.csv
+2026-05-29 08:51:20,795 - ecom_ai - INFO - Closing browser...
+2026-05-29 09:01:13,310 - ecom_ai - INFO - Application started (Playwright Version)
+2026-05-29 09:01:20,910 - ecom_ai - INFO - Application cancelled by user
